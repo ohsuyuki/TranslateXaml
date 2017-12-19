@@ -23,6 +23,7 @@ namespace TranslateXaml
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new TranslateViewModel();
         }
     }
 }
